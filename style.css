@@ -1,0 +1,377 @@
+body{
+	margin: 0px;
+}
+#body-header{
+	height: 65vh;
+	background-image: url(computer.jpg);
+	background-size:cover;
+	background-position: center;
+	background-attachment:none;
+}
+.horizontal-list
+{
+	list-style: none;
+	padding-left: 0px;
+
+}
+.horizontal-list li{
+	display: inline-block;
+	margin-left: 8px;
+	margin-right: 8px;
+	color: white;
+	text-transform: capitalize;
+	font-family: sans-serif;
+
+
+}
+.horizontal-list li a{
+	color: white;
+	text-decoration: none;
+	transition-delay: color 0.5s;
+}
+.text-centre
+{
+	text-align: center;
+}
+.horizontal-list li a:hover{
+	color:azure;
+	border-bottom: solid white;
+}
+#my-name{
+	font-size: 3rem;
+	letter-spacing: 0.1rem;
+	color:azure;
+	font-weight: 700;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.social-icons li a i{
+	padding: 10px;
+	font-size:2rem;
+	border-radius: 50%;
+
+}
+.social-icons li a i:hover{
+	box-shadow: 0px 0px 6px 4px black;
+}
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+
+}
+#about-section
+{
+	height: :12rem;
+	width: 12rem;
+	margin: auto;
+	margin-top: -17vh;
+}
+#about-section img{
+height:100%;
+width:100% ;
+border-radius: 50%;
+box-shadow: 0px 0px 6px 4px black;
+}
+.about-para
+{
+	font-size: 30 rem;
+	word-spacing:0.5rem;
+	font-family: sans-serif;
+	font-weight: 300;
+	margin-top: 2rem;
+	line-height:none;
+	padding: 20px;
+	margin-left: 2rem;
+	margin-right: 2 rem;
+
+}
+section{
+	width:100%;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+section:nth-child(2n){
+	background-color: lightgrey;
+}
+section:nth-child(2n+1)
+{
+	background-color:whitesmoke;
+}
+.section-heading
+{
+	width: auto;
+	padding: 20px 10px 10px;
+	
+	font-weight: 400;
+}
+.section-heading span{
+	font-size: 40px;
+	color: royalblue;
+	display: inline-block;
+	padding-top: 10px;
+	margin-right: 0.5rem;
+}
+.skills-display
+{
+	width:75%;
+	min-height: 150px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.mb75px{
+	margin-bottom: 75px;
+}
+.skill-progress
+{
+	width: 7rem;
+	height: 1.4rem;
+	background-color: white;
+	border-radius: 0.8rem;
+	border: 2px solid black;
+	text-align: center;
+	margin-left: 40 px;
+	margin-bottom: 10px;
+}
+.eightyfive
+{
+width: 80%;
+height: inherit;
+background-color:orangered;
+}
+.skill-name span{
+	color: white;
+	font-size:1rem ;
+
+
+}
+.skill-progress div
+{
+   border-radius: 20px 0px 0px 20px;
+
+}
+
+.ninety
+{
+	width: 90%;
+	height: inherit;
+	background-color: darkgoldenrod;
+}
+.seventy-five
+{
+	width: 75%;
+	height: inherit;
+	background-color: aquamarine;
+}
+.seventy
+{
+	width: 70%;
+	height: inherit;
+	background-color: greenyellow;
+}
+
+.fifty
+{
+
+	width: 50%;
+	height: inherit;
+	background-color: blueviolet;
+}
+.fifty-five
+{
+	width: 55%;
+	height: inherit;
+	background-color:orchid;
+}
+#gradient-color
+{   width:100%;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: linear-gradient(black,violet);
+}
+#information
+{
+
+
+	width:50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.table-name
+{
+    background:none;
+    border:none;
+    border-bottom:3px solid white;
+    display:block;
+    width:30rem;
+    margin-bottom: 3rem;
+    
+    
+}
+::placeholder{
+    color:white;
+}
+.butt
+{
+	background: none;
+	padding:12px;
+	border: 2px solid black;
+	color: white;
+
+}
+#TOUCH
+{
+	width:50%;
+	
+	color: white;
+  }
+  #container
+  {
+  	display: flex;
+  	flex-wrap: wrap;
+  }
+  .timeline{
+  	position: relative;
+  	width: 75%;
+  	border: 2px;
+  	margin: 2px;
+  }
+  .timeline-box
+  {
+  	position: relative;
+  	margin: 5px;
+  	width: 40%;
+  	left: 5%;
+  	min-height:150px;
+  	
+  }
+  .timeline-box:nth-child(2n)
+  {
+  	left: 55%;
+  }
+  .timeline-box:nth-child(2n+1)::after
+  {
+
+content:'';
+position: absolute;
+border-radius: 50%;
+width: 0.5rem;
+height: 0.5rem;
+background-color: red;
+top: 30%;
+right: -12.5%;
+
+  }
+  .timeline-box:nth-child(2n)::after
+  {
+
+content:'';
+position: absolute;
+border-radius: 50%;
+width: 0.5rem;
+height: 0.5rem;
+background-color: red;
+top: 30%;
+left: -14.5%;
+
+  }
+
+
+  .award
+  {
+  	
+  	font-size:3rem ;
+  	color:yellowgreen;
+  	text-align: left;
+  	font-weight: 700;
+  	margin-bottom: 10px;
+  }
+  .degree
+  {
+  	
+  	font-size: 1.5rem;
+  	color:darkviolet;
+  	text-align: right;
+  	font-weight: 700;
+  	margin-bottom: 10px;
+  }
+  .institute
+  {
+
+  	font-size: 1.2rem;
+  	color:red;
+  	text-align: right;
+  	margin-bottom: 10px;
+  	font-family: sans-serif;
+  }
+  .month-year
+  {
+  	font-size: 1rem;
+  	color:seagreen;
+  	text-align: right;
+  	margin-bottom: 10px;
+  	font-family: sans-serif;
+  }
+  .marks
+  {
+  	font-size: 0.8rem;
+  	color:black;
+  	text-align: right;
+  	margin-bottom: 10px;
+  	font-family: monospace;
+
+  }
+  .timeline-divider
+  {
+  	position:absolute;
+  	height:80%;
+  	width: 0%;
+    
+  	border: 2px dashed orangered;
+  	
+  top: 5%;
+left: 50%;
+  }
+  .timeline-font
+  {
+  	position: sticky;
+  	top: 15%;
+  	transform: rotate(90deg);
+  	font-size: 2rem;
+  	color: darkcyan;
+  }
+  @media screen and (max-width: 600px)
+{
+.timeline-divider{
+	left: 5%;
+}
+.timeline-box{
+	left: 12% !important;
+	width: 80%: 
+}
+.timeline-box:nth-child(2n+1)::after
+{
+	left: -21%;
+}
+.timeline-box:nth-child(2n)::after
+{
+	left: -21%;
+}
+.table-name{
+
+	width:100%;
+}
+#TOUCH
+{
+	width: 50%;
+}
+}
+
